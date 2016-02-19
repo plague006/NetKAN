@@ -1,9 +1,0 @@
-{
-    "spec_version" : 1,
-    "identifier"   : "AdjustableLandingGear",
-    "$kref"        : "#/ckan/kerbalstuff/321",
-    "license"      : "CC-BY-SA-3.0",
-    "depends": [
-        { "name": "BDAnimationModules" }
-    ]
-}

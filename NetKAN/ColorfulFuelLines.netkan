@@ -1,0 +1,20 @@
+{
+    "spec_version": 1,
+    "license": "CC-BY-NC-SA",
+    "$kref": "#/ckan/spacedock/94",
+    "$vref" : "#/ckan/ksp-avc",
+    "identifier": "ColorfulFuelLines",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/115315-ColorfulFuelLines"
+    },
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "FirespitterCore"}
+    ],
+    "install": [
+        {
+            "file"       : "ColorfulFuelLines",
+            "install_to" : "GameData"
+        }
+    ]
+}

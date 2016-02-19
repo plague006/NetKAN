@@ -1,23 +1,36 @@
 {
     "spec_version": "v1.4",
     "identifier": "Mk2Expansion",
-    "$kref": "#/ckan/kerbalstuff/790",
+    "name": "Mk2 Stock-a-like Expansion",
+    "abstract": "Adds new mk2 formfactor parts",
+    "author": "Suicidalinsanity",
+    "$kref": "#/ckan/github/SuicidalInsanity/Mk2Expansion",
     "license": "CC-BY-4.0",
+    "ksp_version": "1.0.5",
+    "resources": {
+	"homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/109145-105"
+    },
     "depends": [
         { "name": "KlockheedMartian-Gimbal" },
-        { "name": "ModuleManager", "min_version": "2.5.1" }
+        { "name": "FirespitterCore" },
+        { "name": "ModuleManager", "min_version": "2.5.3" },
+        { "name": "CommunityResourcePack" },
+        { "name": "InterstellarFuelSwitch-Core" }
     ],
     "suggests": [
-	{ "name": "FerramAerospaceResearch" },
-	{ "name": "InterstellarFuelSwitch" }
+	{ "name": "FerramAerospaceResearch" }
     ],
     "install" : [
         {
-            "find"       : "Mk2Expansion",
+            "find"       : "GameData/Mk2Expansion",
             "install_to" : "GameData"
         },
         {
-            "file"        : "Ships",
+            "find"        : "VAB",
+            "install_to"  : "Ships"
+        },
+        {
+            "find"        : "SPH",
             "install_to"  : "Ships"
         }
     ]

@@ -1,6 +1,0 @@
-{
-    "$kref": "#/ckan/kerbalstuff/421", 
-    "spec_version": 1, 
-    "identifier": "AmbientLightAdjustment",
-    "license" : "GPL-3.0"
-}

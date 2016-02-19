@@ -1,11 +1,28 @@
 {
     "spec_version"   : 1,
     "identifier"     : "KerbalJointReinforcement",
-    "$kref"          : "#/ckan/kerbalstuff/53",
+    "$kref"          : "#/ckan/github/ferram4/Kerbal-Joint-Reinforcement",
     "$vref"          : "#/ckan/ksp-avc",
+    "name"           : "Kerbal Joint Reinforcement",
+    "abstract"       : "KJR tightens up the joints between parts and adds some physics-adjusting parameters to make vehicles more stable when loading on the launchpad or coming out of timewarp.",
+    "author"         : "ferram4",
     "license"        : "GPL-3.0",
     "release_status" : "stable",
     "resources"      : {
         "repository"     : "https://github.com/ferram4/Kerbal-Joint-Reinforcement/"
+    },
+    "x_netkan_override" : [
+        {
+            "version" : "v3.1.4",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.5"
+            }
+        }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/55657",
+        "repository": "https://github.com/ferram4/Kerbal-Joint-Reinforcement/"
     }
 }
